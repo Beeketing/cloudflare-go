@@ -23,6 +23,8 @@ type CustomHostnameSSL struct {
 	Type        string                    `json:"type,omitempty"`
 	CnameTarget string                    `json:"cname_target,omitempty"`
 	CnameName   string                    `json:"cname,omitempty"`
+	HTTPBody   string                    `json:"http_body,omitempty"`
+	HTTPUrl   string                    `json:"http_url,omitempty"`
 	Settings    CustomHostnameSSLSettings `json:"settings,omitempty"`
 }
 
