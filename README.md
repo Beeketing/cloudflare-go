@@ -64,7 +64,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/cloudflare/cloudflare-go"
+	"github.com/Beeketing/cloudflare-go"
 )
 
 func main() {
